@@ -9,7 +9,7 @@ require 'oauth2'
 require 'logger'
  
 logger = Logger.new('log/sinatra.log')
-config_file 'lib/config.yml'
+config_file 'lib/config/config.yml'
 
 get '/' do
   erb :main
