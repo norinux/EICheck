@@ -3,3 +3,5 @@ log/*
 temp/*
 .DS_Store
 lib/config.yml
+Gemfile.lock
+.bundle/config

@@ -8,7 +8,7 @@ require 'google_drive'
 require 'oauth2'
 require 'logger'
  
-logger = Logger.new('../log/sinatra.log')
+logger = Logger.new('log/sinatra.log')
 config_file 'lib/config.yml'
 
 get '/' do
