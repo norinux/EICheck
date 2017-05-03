@@ -2,6 +2,6 @@ vendor/*
 log/*
 temp/*
 .DS_Store
-app/lib/config.yml
+app/lib/config/*
 Gemfile.lock
 .bundle/config
